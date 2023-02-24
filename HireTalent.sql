@@ -1,7 +1,5 @@
 select * from SYSCompanyMaster where CompanyName like 'hire%'
 
---41	HireTalent
---262986	HireTalent_
 
 -- Duplicate job
 DECLARe @tbDuplicateJobs TABLE(
