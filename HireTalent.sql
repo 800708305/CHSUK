@@ -18,7 +18,7 @@ where A.CompanyId = 262986 and B.CompanyId = 41
 select * from @tbDuplicateJobs
 
 
--- Daily Activity
+ Daily Activity
 select A.JobDetailId, B.JobDetailId,  DA.* 
 from DailyActivity DA
 INNER JOIN JobDetail A on DA.JobDetailId = A.JobDetailId
